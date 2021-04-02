@@ -1,12 +1,16 @@
 <template>
   <div id="app">
     <header>
-      <h1>Vue.js SPA</h1>
+      <h1>{{ msg }}</h1>
     </header>
     <main>
       <aside class="sidebar">
-      </aside>
+        <div>
+          The sidebar
+        </div>
+      </aside>  
       <div class="content">
+        Primary content. Blagh d blagh.
       </div>
     </main>
   </div>
